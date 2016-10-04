@@ -16,7 +16,7 @@ Cualquier duda que les genere tanto la utilización de este repositorio como el 
 
 Este proyecto requerirá de librerías y herramientas que nos permitan hacer nuestro trabajo más práctico.
 
-* [Piskel] - HTML enhanced for web apps!
+* [Piskel] - Herramienta de diseño online
 * [ShoeBox] - Empaquetador/Optimizador de assets gráficos
 * [Netbeans] - (Opcional) Entorno de desarrollo
 * [Sublime Text 3] - Editor de texto/código
