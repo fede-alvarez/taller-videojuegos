@@ -5,12 +5,12 @@ Utilizando tecnologías como Phaser, que permitirá visualizar nuestro proyecto 
 Cualquier duda que les genere tanto la utilización de este repositorio como el taller en si mismo, pueden resolverla escribiendome a falvarez@estudioegg.com o por Twitter a @FefoAlvarez.
 
 **Objetivos**
-- Los alumnos serán capaces de *llevar a cabo prototipos de juegos* mediante el uso de Phaser.
+- Los alumnos serán capaces de llevar a cabo prototipos de juegos mediante el uso de **Phaser**.
 - Aprenderán sobre distintas herramientas de desarrollo.
 - Darán sus primeros pasos en diseño y desarrollo de videojuegos.
+- Manejo de repositorios
+- Consejos para gestionar proyectos similares.
 
-### Version
-0.0.1
 
 ### Tecnologías & Herramientas
 
@@ -24,7 +24,7 @@ Este proyecto requerirá de librerías y herramientas que nos permitan hacer nue
 ### Utilización del repositorio
 Pueden clonar el repositorio para poder trabajar sobre el/los proyectos.
 ```sh
-$ git clone [git-repo-url] taller-videojuegos
+$ git clone https://github.com/fede-alvarez/taller-videojuegos.git taller-videojuegos
 $ cd taller-videojuegos
 ```
 

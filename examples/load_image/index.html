@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Examples // Load an image</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="../lib/phaser.min.js"></script>
+        <style type="text/css">
+            html, body { margin:0; padding:0; overflow: hidden; }
+        </style>
+        <script>
+            var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create });
+
+            function preload()
+            {
+                game.load.image('character', '../assets/base_character.png');
+            }
+
+            function create()
+            {
+                var x = game.world.width * .5,
+                    y = game.world.height * .5,
+                    char = null;
+
+                char = game.add.sprite(0, 0, 'character');
+                char.x = x - char.width * .5;
+                char.y = y - char.height * .5;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="phaser-example"></div>
+    </body>
+</html>

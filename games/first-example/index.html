@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phaser Basic Game Template</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <!-- Incluyendo Phaser -->
+        <script src="lib/phaser.min.js"></script>
+        <!-- Incluyendo el juego en si mismo -->
+        <script src="game/Boot.js"></script>
+        <script src="game/Preloader.js"></script>
+        <script src="game/states/Splash.js"></script>
+        <script src="game/states/Menu.js"></script>
+        <script src="game/states/Game.js"></script>
+
+        <style type="text/css">
+            /* Quita scroll y margenes en el navegador */
+            html, body { margin:0; padding:0; overflow: hidden; }
+        </style>
+        <script>
+            var game = new Phaser.Game( gameWidth, gameHeight, Phaser.CANVAS, '' );
+
+            game.state.add('Boot',      BasicTemplate.Boot);
+            game.state.add('Splash',    BasicTemplate.Splash);
+            game.state.add('Preloader', BasicTemplate.Preloader);
+            game.state.add('Menu',      BasicTemplate.Menu);
+            game.state.add('Game',      BasicTemplate.Game);
+
+            game.state.start('Boot');
+        </script>
+    </head>
+    <body>
+        <div id="game_div"></div>
+    </body>
+</html>
